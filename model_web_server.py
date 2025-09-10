@@ -14,4 +14,4 @@ def predict(data: dict):
 
 
 if __name__ == "__main__":
-    uvicorn.run("model_web_server:app", host="0.0.0.0", port=8000, reload=True)
+    uvicorn.run("model_web_server:app", host="0.0.0.0", port=5276, reload=True)
